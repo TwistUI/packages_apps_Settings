@@ -18,4 +18,9 @@
     <!-- TwistUI Maintainer -->
     <string name="TwistUI_maintainer">Maintainer</string>
 
+    <!-- TwistUI Kitchen -->
+    <string name="twistui_lab_title">TwistUI Kitchen</string>
+    <string name="twistui_lab_footer">Warning: These features are too much hot and may have risks. Use them with caution.</string>
+    <string name="twistui_lab_summary">Experimental features</string>
+
 </resources>
