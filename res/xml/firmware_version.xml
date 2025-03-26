@@ -30,6 +30,22 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.TwistUIVersionDetailPreferenceController"/>
 
+    <!-- TwistUI Codename  -->
+    <Preference
+        android:key="TwistUI_codename"
+        android:title="@string/TwistUI_codename"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="false"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.TwistUICodenamePreferenceController"/>
+
+    <!-- TwistUI Version  -->
+    <Preference
+        android:key="TwistUI_version"
+        android:title="@string/TwistUI_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="false"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.TwistUIVersionPreferenceController"/>
+
     <!-- TwistUI Maintainer  -->
     <Preference
         android:key="TwistUI_maintainer"
